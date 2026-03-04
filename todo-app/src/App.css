@@ -1,0 +1,111 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#121212;
+  color:white;
+}
+
+/* MAIN APP */
+.app{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+/* HEADER FULL WIDTH */
+.header{
+  width:100vw;
+  padding:20px;
+  background:#1e1e1e;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #333;
+  box-sizing:border-box;
+}
+
+/* LAYOUT */
+.layout{
+  display:flex;
+  flex:1;
+}
+
+/* LEFT SIDE 40% */
+.left-panel{
+  width:40%;
+  background:#181818;
+  padding:20px;
+  border-right:1px solid #333;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+/* RIGHT SIDE 60% */
+.right-panel{
+  width:60%;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+/* TASK STACK */
+.task-card{
+  background:#1f1f1f;
+  padding:15px;
+  border-radius:8px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+/* TASK HEADER */
+.task-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.done{
+  text-decoration:line-through;
+  opacity:0.6;
+}
+
+/* SUBTASKS */
+.bulletins{
+  padding-left:20px;
+  font-size:14px;
+  color:#aaa;
+}
+
+/* INPUTS */
+textarea{
+  height:100px;
+  resize:none;
+  background:#222;
+  border:1px solid #333;
+  color:white;
+  padding:10px;
+}
+
+input, select{
+  background:#222;
+  border:1px solid #333;
+  color:white;
+  padding:8px;
+}
+
+/* BUTTON */
+button{
+  background:#3b82f6;
+  border:none;
+  padding:10px;
+  color:white;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+button:hover{
+  background:#2563eb;
+}
